@@ -86,7 +86,7 @@ function onloadGame(){
     lsNiveis.push(criarNiveis("Ouro", 51, 80));
     lsNiveis.push(criarNiveis("Diamante", 81 , 90));
     lsNiveis.push(criarNiveis("Lendário", 91 , 100));
-    lsNiveis.push(criarNiveis("Imortal", 101 , 100));
+    lsNiveis.push(criarNiveis("Imortal", 101 , 1000));
     
 
     sldRanqueada = calcSaldoRankeada(qtdeVitorias, qtdeDerrotas);

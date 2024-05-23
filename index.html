@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <form id="formulario" action="" method="post">
+        <div>
+          <h1>Informe os Dados</h1>               
+          <div class="barra-horizontal"></div>
+        </div>
+
+        <div class="campo-input">
+          <label>Nome Jogador</label>          
+          <input id="nomeJogador" type="text" required>          
+        </div>
+
+        <div class="campo-input">
+          <label>Quantidade de Vitórias</label>          
+          <input id="qtdeVitoriasJogador" type="text" required>          
+        </div>
+        
+        <div class="campo-input">
+          <label>Quantidade de Derrotas</label>         
+          <input id="qtdeDerrotasJogador" type="text" required>
+        </div>
+
+      
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="src/calculadoraRankeada.js"></script>
+  </body>
+</html>

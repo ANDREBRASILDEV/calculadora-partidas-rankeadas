@@ -1,0 +1,59 @@
+
+body{
+    font-family: cursive;
+    color: #000000;   
+}
+
+h1{
+    align-self: center;
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+.barra-horizontal {
+    background-color: #00eeff;
+    height: 6px;
+    width: 280px;
+    align-self: center;
+}
+
+.principal{
+    font-family: cursive;
+    color: #ffffff;            
+    background-image: linear-gradient(#00106d, #55c1ff );
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;        
+}
+
+.nomeJogador{
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+    width: 170px;    
+    text-transform: uppercase;
+    border: solid 2px;
+    border-radius: 30px;    
+    background-image: linear-gradient(#6d02f8, #f8ebe5 );
+    border: solid 1px #6d02f8;
+    border-right-width: 4px;
+    border-bottom-width: 5px;
+     font-size: 20px;
+     color: white;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+
+
+.infoJogador{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;          
+}
